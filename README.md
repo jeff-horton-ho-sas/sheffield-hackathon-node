@@ -82,9 +82,9 @@ import {getAdjacentCells} from './index.js'
 // the group or test respectively.
 describe("getAdjacentCells", () => {
    const EXAMPLE_PICTURE = [
-      'a', 'b', 'c',
-      'a', 'a', 'c',
-      'a', 'a', 'a',
+      ['a', 'b', 'c'],
+      ['a', 'a', 'c'],
+      ['a', 'a', 'a'],
    ]
 
    test("Can find adjacent cells", () => {
