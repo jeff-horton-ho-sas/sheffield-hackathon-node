@@ -91,10 +91,10 @@ describe("getAdjacentCells", () => {
       const result = getAdjacentCells(1, 1, EXAMPLE_PICTURE);
       
       expect(result.length).toBe(4)
-      expect(result.toContain([0, 1]))
-      expect(result.toContain([1, 0]))
-      expect(result.toContain([2, 1]))
-      expect(result.toContain([1, 2]))
+      expect(result).toContainEqual([0, 1])
+      expect(result).toContainEqual([1, 0])
+      expect(result).toContainEqual([2, 1])
+      expect(result).toContainEqual([1, 2])
    })
    
    test("Can find adjacent cells on the edge of the picture", () => {
@@ -117,9 +117,9 @@ If you need to restart the tests for any reason, run `npm test` in the terminal.
 You will need to allow GitPod permission to push to your repository. Go to 
 [Gitpod Integrations](https://gitpod.io/integrations) and add public_repo permissions:
 
-<img src="./docs/gitpod-integrations.png" />
+<img src="./docs/gitpod-integrations.png"  alt="The gitpod integrations options page"/>
 
-<img src="./docs/gitpod-permissions.png" />
+<img src="./docs/gitpod-permissions.png"  alt="The permissions pop up on Gitpod"/>
 
 You can then commit your changes and push them to GitHub from within Gitpod.
 
@@ -127,17 +127,22 @@ You can then commit your changes and push them to GitHub from within Gitpod.
 2. Commit the changes:
 3. Synchronise the commit with GitHub:
    
-<img src="./docs/gitpod-stage.png" width="240"/>
+<img src="./docs/gitpod-stage.png" width="320" alt="Stage a commit in Gitpod"/>
 &emsp;
-<img src="./docs/gitpod-commit.png" width="240"/>
+<img src="./docs/gitpod-commit.png" width="360" alt="Commit in Gitpod"/>
 &emsp;
-<img src="./docs/gitpod-sync.png" width="240"/>
+<img src="./docs/gitpod-sync.png" width="320" alt="Synchronise the changes to Gitpod"/>
 
 ## Powered / Supported By
 
-<a href="https://www.bcs.org/membership-and-registrations/member-communities/south-yorkshire-branch/"><img src="./docs/bcs-logo.png" width="100" height="140" /></a>
+<a href="https://www.bcs.org/membership-and-registrations/member-communities/south-yorkshire-branch/">
+    <!--suppress CheckImageSize -->
+    <img src="./docs/bcs-logo.png" width="100" height="140"  alt="BCS Logo"/>
+</a>
 &emsp;
-<a href="https://www.gitpod.io/"><img src="./docs/gitpod-logo.png"/></a>
+<a href="https://www.gitpod.io/">
+    <img src="./docs/gitpod-logo.png" alt="Gitpod Logo"/>
+</a>
 
 ### Facilitators:
 
