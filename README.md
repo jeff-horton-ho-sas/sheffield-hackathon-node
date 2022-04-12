@@ -129,7 +129,7 @@ You can then commit your changes and push them to GitHub from within Gitpod.
    
 <img src="./docs/gitpod-stage.png" width="320" alt="Stage a commit in Gitpod"/>
 &emsp;
-<img src="./docs/gitpod-commit.png" width="360" alt="Commit in Gitpod"/>
+<img src="./docs/gitpod-commit.png" width="320" alt="Commit in Gitpod"/>
 &emsp;
 <img src="./docs/gitpod-sync.png" width="320" alt="Synchronise the changes to Gitpod"/>
 
